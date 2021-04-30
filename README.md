@@ -1,4 +1,6 @@
 # JUST ANOTHER REACT BOILERPLATE
 
 ### Usage:
-Just clone repository and run `npm start` or `yarn start` 
+1. Clone repository
+2. Run `npm start`
+3. Open `index.html` with Live Server
