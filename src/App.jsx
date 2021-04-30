@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.scss'
-import cat from '../assets/img/dgava.png'
+import cat from '../assets/img/dgcat_ava.png'
 
 const App = () => {
   return (
