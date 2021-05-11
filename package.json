@@ -1,6 +1,6 @@
 {
-  "name": "jarb",
-  "version": "1.0.0",
+  "name": "dgcjarb",
+  "version": "1.0.1",
   "description": "Just another React boilerplate for U my dear friend",
   "main": "index.js",
   "scripts": {
