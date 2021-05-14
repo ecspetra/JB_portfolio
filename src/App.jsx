@@ -32,7 +32,7 @@ const App = () => {
               <div className="projects-screen__container-buildings__description__paragraph">
                 A project for a construction company, laid out on{" "}
                 <span>FlexBox</span>. Includes some JQuery plugins, Slick
-                Slider, Leaflet and animations. Adapted for all devices and
+                Slider, Leaflet map and animations. Adapted for all devices and
                 cross-browser.
               </div>
               <button className="projects-screen__container-buildings__description__cta-button cta-button">
