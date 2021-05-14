@@ -26,10 +26,17 @@ const Header = () => {
             />
           </svg>
         </div>
-        <div className="main-screen__header__container__top-email">
-          <a href="mailto:ecspetra@gmail.com">
-            <i class="fas fa-envelope"></i>ecspetra@gmail.com
-          </a>
+        <div className="main-screen__header__container__links">
+          <div className="main-screen__header__container__links__top-email">
+            <a href="mailto:ecspetra@gmail.com" target="_blank">
+              <i class="fas fa-envelope"></i>ecspetra@gmail.com
+            </a>
+          </div>
+          <div className="main-screen__header__container__links__top-phone">
+            <a href="tel:+0973088571">
+              <i class="fas fa-phone-alt"></i>097 308 85 71
+            </a>
+          </div>
         </div>
       </div>
     </div>

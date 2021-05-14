@@ -4,7 +4,11 @@ const TopContacts = () => {
   return (
     <div className="main-screen__contacts">
       <div className="main-screen__contacts__links">
-        <a href="http://" className="main-screen__contacts__links__item">
+        <a
+          href="https://www.linkedin.com/in/julia-buts-743158211/"
+          target="_blank"
+          className="main-screen__contacts__links__item"
+        >
           <svg
             id="prefix__a1d65f7b-ebf6-43d5-8b82-16fe6b903ad5"
             data-name="\u0421\u043B\u043E\u0439 1"
@@ -26,7 +30,11 @@ const TopContacts = () => {
             />
           </svg>
         </a>
-        <a href="http://" className="main-screen__contacts__links__item">
+        <a
+          href="tg://resolve?domain=<0973088571>"
+          target="_blank"
+          className="main-screen__contacts__links__item"
+        >
           <svg
             id="prefix__b9e74ddf-2328-4d73-b85e-3d87ee30633c"
             data-name="\u0421\u043B\u043E\u0439 1"
@@ -48,29 +56,31 @@ const TopContacts = () => {
             />
           </svg>
         </a>
-        <a href="http://" className="main-screen__contacts__links__item">
+
+        <a
+          href="https://github.com/ecspetra"
+          target="_blank"
+          className="main-screen__contacts__links__item"
+        >
           <svg
-            id="prefix__f7e8a03b-8bdf-43d3-913b-6726e04229cf"
+            id="prefix__a816be54-4b30-42dd-ba08-158f49900f95"
             data-name="\u0421\u043B\u043E\u0439 1"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 56 56"
           >
             <defs>
               <style>
-                {".prefix__afc196f3-d9b8-45f8-bdf8-6264d7aefd2e{fill:#ea496a}"}
+                {".prefix__a9088612-d5c4-490f-81e1-9686d8afa4da{fill:#ea496a}"}
               </style>
             </defs>
+            <title>{"github"}</title>
             <path
-              className="prefix__afc196f3-d9b8-45f8-bdf8-6264d7aefd2e"
+              className="prefix__a9088612-d5c4-490f-81e1-9686d8afa4da"
               d="M28 2A26 26 0 112 28 26 26 0 0128 2m0-2A28 28 0 000 28a28 28 0 0028 28 28 28 0 0028-28A28 28 0 0028 0z"
             />
             <path
-              className="prefix__afc196f3-d9b8-45f8-bdf8-6264d7aefd2e"
-              d="M41.91 22.24a10.43 10.43 0 00-.65-3.39 7 7 0 00-1.62-2.48 6.9 6.9 0 00-2.48-1.61 9.93 9.93 0 00-3.39-.65C32.28 14 31.8 14 28 14s-4.28 0-5.77.08a10.49 10.49 0 00-3.39.65 6.84 6.84 0 00-2.48 1.62 7 7 0 00-1.61 2.47 10.5 10.5 0 00-.65 3.4C14 23.73 14 24.21 14 28s0 4.27.09 5.76a10 10 0 00.65 3.4 6.82 6.82 0 001.61 2.48 6.9 6.9 0 002.48 1.61 10.43 10.43 0 003.39.65c1.49.06 2 .08 5.76.08s4.27 0 5.76-.08a10.38 10.38 0 003.39-.65 7.13 7.13 0 004.09-4.09 10 10 0 00.65-3.4C42 32.27 42 31.8 42 28s0-4.27-.09-5.76zm-2.52 11.42a7.68 7.68 0 01-.48 2.59 4.63 4.63 0 01-2.66 2.65 7.43 7.43 0 01-2.59.48c-1.48.07-1.92.09-5.65.09s-4.18 0-5.65-.09a7.43 7.43 0 01-2.59-.48 4.18 4.18 0 01-1.61-1 4.34 4.34 0 01-1-1.6 7.82 7.82 0 01-.48-2.6c-.07-1.47-.08-1.92-.08-5.65s0-4.17.08-5.64a7.7 7.7 0 01.48-2.6 4.17 4.17 0 011.05-1.6 4.37 4.37 0 011.6-1.05 7.82 7.82 0 012.6-.48c1.47-.06 1.92-.08 5.65-.08s4.17 0 5.64.08a7.7 7.7 0 012.6.48 4.29 4.29 0 011.6 1.05 4.37 4.37 0 011 1.6 7.76 7.76 0 01.48 2.6c.06 1.47.08 1.91.08 5.64s-.01 4.13-.07 5.61z"
-            />
-            <path
-              className="prefix__afc196f3-d9b8-45f8-bdf8-6264d7aefd2e"
-              d="M28 20.82A7.18 7.18 0 1035.19 28 7.19 7.19 0 0028 20.82zm0 11.84A4.66 4.66 0 1132.66 28 4.65 4.65 0 0128 32.66zM37.15 20.54a1.68 1.68 0 11-1.68-1.68 1.68 1.68 0 011.68 1.68z"
+              className="prefix__a9088612-d5c4-490f-81e1-9686d8afa4da"
+              d="M28 14.17a14.19 14.19 0 00-4.46 27.64c.7.13 1-.31 1-.68v-2.42c-3.93.86-4.76-1.9-4.76-1.9a3.7 3.7 0 00-1.57-2.07c-1.28-.88.1-.87.1-.87a3 3 0 012.16 1.47 3 3 0 004.11 1.17 3.05 3.05 0 01.9-1.89C22.29 34.26 19 33 19 27.61a5.51 5.51 0 011.45-3.81 5.08 5.08 0 01.14-3.75s1.19-.38 3.88 1.45a13.57 13.57 0 017.08 0c2.7-1.83 3.88-1.45 3.88-1.45a5.08 5.08 0 01.14 3.75A5.49 5.49 0 0137 27.61c0 5.45-3.3 6.65-6.45 7a3.38 3.38 0 011 2.63v3.89c0 .47.25.82 1 .68A14.19 14.19 0 0028 14.17z"
             />
           </svg>
         </a>

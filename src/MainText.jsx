@@ -6,17 +6,20 @@ const MainText = () => {
       <div className="main-screen__container__description">
         <div className="main-screen__container__description__headline">
           Julia`s <br />
-          <span>
-            Front-End <span id="portfolio">Portfolio.</span>
+          <span id="front-end" data-aos="fade-left" data-aos-duration="3000">
+            Front-End
+          </span>
+          <span id="portfolio" data-aos="fade-right" data-aos-duration="3000">
+            Portfolio.
           </span>
         </div>
         <div className="main-screen__container__description__paragraph">
           I have 5 years of experience in development of Landing Page design,
           corporate sites. I have developed advertising campaigns for the
           largest book resources – LiveLib and Litres (tests, contests, banners,
-          presentations, page branding). Now I want to start a career as a
-          Front-End developer.
-          <button className="main-screen__container__description__cta-button">
+          presentations, page branding).{" "}
+          <span>Now I want to start a career as a Front-End developer.</span>
+          <button className="main-screen__container__description__cta-button cta-button">
             <a href="index.html">
               View projects
               <svg
