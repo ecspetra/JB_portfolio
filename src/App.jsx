@@ -1,26 +1,16 @@
-import React from 'react'
-import './App.scss'
-import cat from '../assets/img/dgcat_ava.png'
+import React from "react";
+import MainScreen from "./MainScreen.jsx";
+import "./style.scss";
 
 const App = () => {
   return (
-    <div className='App'>
-      <h1>Minimal React App</h1>
-      <img src={cat} alt='cat' />
-      <h4>Includes:</h4>
-      <ul>
-        <li>sass-loader</li>
-        <li>file-loader</li>
-      </ul>
-      <h4>Enjoy!</h4>
-      <p>
-        Please give me feedback <a href="https://t.me/darkgraycat">Telegram</a>
-      </p>
-      <p>
-        If you have a problem: <a href="https://github.com/darkgraycat/jarb/issues">Issues</a>
-      </p>
+    <div className="App">
+      <div className="wrapper">
+        <MainScreen />
+        <div className="projects-screen"></div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

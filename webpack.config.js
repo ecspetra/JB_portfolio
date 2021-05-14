@@ -1,5 +1,5 @@
-const path = require('path')
-const webpack = require('webpack')
+const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
   module: {
@@ -7,21 +7,25 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /(node_modules)/,
-        loader: 'babel-loader',
-        options: { presets: ["@babel/preset-react"] }
+        loader: "babel-loader",
+        options: { presets: ["@babel/preset-react"] },
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
+        use: ["style-loader", "css-loader"],
       },
       {
         test: /\.s[ac]ss$/i,
-        use: ['style-loader', 'css-loader', 'sass-loader']
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
-        use: ['file-loader']
-      }
-    ]
-  }
-}
+        use: ["file-loader"],
+      },
+      {
+        test: /\.svg$/,
+        loader: "file-loader",
+      },
+    ],
+  },
+};
