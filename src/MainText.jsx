@@ -6,12 +6,14 @@ const MainText = () => {
       <div className="main-screen__container__description">
         <div className="main-screen__container__description__headline">
           Julia`s <br />
-          <span id="front-end" data-aos="fade-left" data-aos-duration="3000">
-            Front-End
-          </span>
-          <span id="portfolio" data-aos="fade-right" data-aos-duration="3000">
-            Portfolio.
-          </span>
+          <div className="main-screen__container__description__headline__text">
+            <h1 id="front-end" className="glitched">
+              Front-End
+            </h1>
+            <h1 id="portfolio" className="glitched">
+              Portfolio.
+            </h1>
+          </div>
         </div>
         <div className="main-screen__container__description__paragraph">
           I have 5 years of experience in development of Landing Page design,

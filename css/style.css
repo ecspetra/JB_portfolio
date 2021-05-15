@@ -47,7 +47,6 @@ body {
 }
 .wrapper .main-screen {
   position: relative;
-  background-color: #03060d;
   background-image: url("../src/img/main-screen-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -228,7 +227,7 @@ body {
 .wrapper .main-screen .main-screen__container .main-screen__container__description .main-screen__container__description__paragraph .main-screen__container__description__cta-button {
   margin: 55px 0px 0px 0px;
 }
-.main-screen:before {
+.wrapper .main-screen:before {
   content: " ";
   display: block;
   float: left;
@@ -239,24 +238,22 @@ body {
   left: 25%;
   background-color: white;
 }
-
-.main-screen:after {
+.wrapper .main-screen:after {
   content: " ";
   display: block;
   float: left;
   width: 25%;
   height: 1px;
   position: absolute;
-  top: 34%;
+  top: 33%;
   right: 0;
   background-color: white;
 }
-
-.projects-screen {
+.wrapper .projects-screen {
   padding: 200px 0px;
   background-color: #03060d;
 }
-.projects-screen .projects-screen__container-buildings {
+.wrapper .projects-screen .projects-screen__container-buildings {
   padding: 0px 40px;
   max-width: 1280px;
   margin: 0 auto;
@@ -270,15 +267,15 @@ body {
   background-position: center;
   background-size: contain;
 }
-.projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images {
+.wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images {
   position: relative;
 }
-.projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images .projects-screen__container-buildings__images__item {
+.wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images .projects-screen__container-buildings__images__item {
   background-color: white;
   width: 520px;
   height: 360px;
 }
-.projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images #buildings-img-1 {
+.wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images #buildings-img-1 {
   background: url("../src/img/buildings-img-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -286,7 +283,7 @@ body {
   background-color: #111b31;
   background-blend-mode: luminosity;
 }
-.projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images #buildings-img-2 {
+.wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images #buildings-img-2 {
   background: url("../src/img/buildings-img-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -302,37 +299,36 @@ body {
   -moz-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
   box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
 }
-.projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description {
+.wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description {
   background: url("../src/img/rect.svg");
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 15%;
   padding: 50px;
 }
-.projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__headline {
-  max-width: 300px;
+.wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__headline {
   margin: 0px 0px 40px -10px;
   font-size: 100px;
   line-height: 100px;
   font-weight: 700;
   color: #e4d5b7;
 }
-.projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__headline span {
+.wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__headline span {
   color: #ea496a;
 }
-.projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__paragraph {
+.wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__paragraph {
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
   max-width: 40ch;
 }
-.projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__paragraph span {
+.wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__paragraph span {
   color: #ea496a;
 }
-.projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__cta-button {
+.wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__cta-button {
   margin: 55px 0px 0px 0px;
 }
-.projects-screen .projects-screen__container-mobapp {
+.wrapper .projects-screen .projects-screen__container-mobapp {
   padding: 0px 40px;
   max-width: 1280px;
   margin: 200px auto 0px auto;
@@ -346,16 +342,16 @@ body {
   background-position: center;
   background-size: contain;
 }
-.projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images {
+.wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images {
   position: relative;
   order: 2;
 }
-.projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images .projects-screen__container-mobapp__images__item {
+.wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images .projects-screen__container-mobapp__images__item {
   background-color: white;
   width: 520px;
   height: 360px;
 }
-.projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images #mobapp-img-1 {
+.wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images #mobapp-img-1 {
   background: url("../src/img/mobapp-img-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -363,7 +359,7 @@ body {
   background-color: #111b31;
   background-blend-mode: luminosity;
 }
-.projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images #mobapp-img-2 {
+.wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images #mobapp-img-2 {
   background: url("../src/img/mobapp-img-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -379,7 +375,7 @@ body {
   -moz-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
   box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
 }
-.projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description {
+.wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description {
   background: url("../src/img/rect.svg");
   background-repeat: no-repeat;
   background-position: top left;
@@ -387,28 +383,64 @@ body {
   padding: 50px;
   order: 1;
 }
-.projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__headline {
-  max-width: 300px;
+.wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__headline {
   margin: 0px 0px 40px -10px;
   font-size: 100px;
   line-height: 100px;
   font-weight: 700;
   color: #e4d5b7;
 }
-.projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__headline span {
+.wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__headline span {
   color: #ea496a;
 }
-.projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__paragraph {
+.wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__paragraph {
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
   max-width: 40ch;
 }
-.projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__paragraph span {
+.wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__paragraph span {
   color: #ea496a;
 }
-.projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__cta-button {
+.wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__cta-button {
   margin: 55px 0px 0px 0px;
+}
+.wrapper .cv-screen {
+  background-color: #03060d;
+  background-image: url("../src/img/main-screen-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+}
+.wrapper .cv-screen .cv-screen__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wrapper .cv-screen .cv-screen__container .cv-screen__container__description .cv-screen__container__description__headline {
+  font-size: 56px;
+  line-height: 56px;
+  font-weight: 700;
+}
+.wrapper .cv-screen .cv-screen__container .cv-screen__container__description .cv-screen__container__description__headline span {
+  color: #ea496a;
+}
+.wrapper .cv-screen .cv-screen__container .cv-screen__container__description .cv-screen__container__description__paragraph {
+  font-size: 26px;
+  line-height: 32px;
+  margin: 45px 0px 50px 0px;
+}
+.wrapper .cv-screen .cv-screen__container .cv-screen__container__description .cv-screen__container__description__paragraph span {
+  color: #ea496a;
+}
+.wrapper .cv-screen .cv-screen__container .cv-screen__container__description .cv-screen__container__description__download a svg {
+  width: 80px;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
