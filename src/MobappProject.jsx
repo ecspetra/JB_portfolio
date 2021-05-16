@@ -1,4 +1,5 @@
 import React from "react";
+import DemoTwoBtn from "./DemoTwoBtn.jsx";
 
 const MobappProject = () => {
   return (
@@ -28,21 +29,7 @@ const MobappProject = () => {
           <span>Bootstrap</span>. Includes Slick Slider, Scalable Vector
           Graphics and animations. Adapted for all devices and cross-browser.
         </div>
-        <button className="projects-screen__container-mobapp__description__cta-button cta-button">
-          <a href="https://ecspetra.github.io/example-2/" target="_blank">
-            Demo
-            <svg
-              data-name="\u0421\u043B\u043E\u0439 1"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 968.2 151.8"
-            >
-              <path
-                fill="#fff"
-                d="M892.3 0l-22.8 22.8 36.9 37H0V92h906.4l-36.9 37 22.8 22.8 75.9-75.9L892.3 0z"
-              />
-            </svg>
-          </a>
-        </button>
+        <DemoTwoBtn />
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import DemoOneBtn from "./DemoOneBtn.jsx";
 
 const BuildingsProject = () => {
   return (
@@ -28,21 +29,7 @@ const BuildingsProject = () => {
           . Includes some JQuery plugins, Slick Slider, Leaflet map and
           animations. Adapted for all devices and cross-browser.
         </div>
-        <button className="projects-screen__container-buildings__description__cta-button cta-button">
-          <a href="https://ecspetra.github.io/example-1/" target="_blank">
-            Demo
-            <svg
-              data-name="\u0421\u043B\u043E\u0439 1"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 968.2 151.8"
-            >
-              <path
-                fill="#fff"
-                d="M892.3 0l-22.8 22.8 36.9 37H0V92h906.4l-36.9 37 22.8 22.8 75.9-75.9L892.3 0z"
-              />
-            </svg>
-          </a>
-        </button>
+        <DemoOneBtn />
       </div>
     </div>
   );

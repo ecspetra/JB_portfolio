@@ -5,7 +5,7 @@ import MainText from "./MainText.jsx";
 
 const MainScreen = () => {
   return (
-    <div className="main-screen">
+    <div className="main-screen" id="home">
       <Header />
       <TopContacts />
       <MainText />

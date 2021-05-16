@@ -4,7 +4,7 @@ import MobappProject from "./MobappProject.jsx";
 
 const ProjectsScreen = () => {
   return (
-    <div className="projects-screen">
+    <div className="projects-screen" id="projects">
       <BuildingsProject />
       <MobappProject />
     </div>

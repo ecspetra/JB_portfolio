@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectsBtn from "./ProjectsBtn.jsx";
 
 const MainText = () => {
   return (
@@ -21,21 +22,7 @@ const MainText = () => {
           largest book resources – LiveLib and Litres (tests, contests, banners,
           presentations, page branding).{" "}
           <span>Now I want to start a career as a Front-End developer.</span>
-          <button className="main-screen__container__description__cta-button cta-button">
-            <a href="index.html">
-              View projects
-              <svg
-                data-name="\u0421\u043B\u043E\u0439 1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 968.2 151.8"
-              >
-                <path
-                  fill="#fff"
-                  d="M892.3 0l-22.8 22.8 36.9 37H0V92h906.4l-36.9 37 22.8 22.8 75.9-75.9L892.3 0z"
-                />
-              </svg>
-            </a>
-          </button>
+          <ProjectsBtn />
         </div>
       </div>
     </div>
