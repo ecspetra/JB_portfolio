@@ -52,6 +52,8 @@ $paragraph-lh: 28px;
 }
 .cta-button:hover {
   background: $color-accent;
+  box-shadow: 10px 10px rgba($color: rgb(32, 241, 196), $alpha: 0.1),
+    -10px -10px rgba($color: $color-accent, $alpha: 0.2);
 }
 
 .wrapper {
@@ -110,6 +112,7 @@ $paragraph-lh: 28px;
 
               &:hover {
                 color: $color-accent;
+                text-shadow: -20px 0 rgba($color: $color-accent, $alpha: 0.1);
               }
             }
           }
@@ -135,6 +138,7 @@ $paragraph-lh: 28px;
 
               &:hover {
                 color: $color-accent;
+                text-shadow: -20px 0 rgba($color: $color-accent, $alpha: 0.1);
               }
             }
           }
@@ -236,6 +240,10 @@ $paragraph-lh: 28px;
               display: block;
               color: $headline-color;
               margin: 0;
+            }
+
+            #portfolio {
+              color: $color-accent;
             }
           }
           .glitch-window {
@@ -527,7 +535,6 @@ $paragraph-lh: 28px;
 
           #download {
             color: $headline-color;
-            text-shadow: rgba($color: $headline-color, $alpha: 0.3) 1px 0 20px;
           }
         }
         .cv-screen__container__description__paragraph {
