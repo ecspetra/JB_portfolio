@@ -7,8 +7,8 @@ const MainScreen = () => {
   return (
     <div className="main-screen" id="home">
       <Header />
-      <TopContacts />
       <MainText />
+      <TopContacts />
     </div>
   );
 };
