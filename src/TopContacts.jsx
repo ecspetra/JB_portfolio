@@ -31,7 +31,7 @@ const TopContacts = () => {
           </svg>
         </a>
         <a
-          href="tg://resolve?domain=<0973088571>"
+          href="tg://resolve?domain=0973088571"
           target="_blank"
           className="main-screen__contacts__links__item"
         >
