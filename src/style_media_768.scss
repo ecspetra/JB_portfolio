@@ -11,7 +11,7 @@
     .main-screen {
       height: auto;
       padding: 120px 20px 50px 20px;
-      background-attachment: scroll;
+      background-attachment: scroll !important;
       .main-screen__header {
         top: 20px;
         left: 20px;
