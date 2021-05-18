@@ -10,14 +10,14 @@ const BuildingsProject = () => {
           id="buildings-img-1"
           data-aos="fade-left"
           data-aos-duration="2000"
-          data-aos-offset="500"
+          data-aos-offset="100"
         ></div>
         <div
           className="projects-screen__container-buildings__images__item"
           id="buildings-img-2"
           data-aos="fade-up"
           data-aos-duration="2000"
-          data-aos-offset="300"
+          data-aos-offset="100"
         ></div>
       </div>
       <div className="projects-screen__container-buildings__description">

@@ -1,1 +1,3 @@
-<script>AOS.init();</script>;
+$(document).ready(function () {
+  AOS.init();
+});

@@ -19,31 +19,10 @@
 <body>
   <div id="root"></div>
   <script src="./dist/main.js"></script>
+  <script src="src/aos-init.js"></script>
+  <script src="src/glitch-effect.js"></script>
+  <script src="src/anchors.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
-  <script>
-    $(".main-screen__container__description__headline__text").append("<div class='glitch-window'></div>");
-    $("h1.glitched").clone().appendTo(".glitch-window");
-
-
-    const anchors = document.querySelectorAll('a[href*="#"]')
-
-    for (let anchor of anchors) {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault()
-
-        const blockID = anchor.getAttribute('href').substr(1)
-
-        document.getElementById(blockID).scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        })
-      })
-    }
-  </script>
 </body>
 
 </html>
