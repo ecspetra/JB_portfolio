@@ -16,7 +16,10 @@ const CVDescription = () => {
         I will be glad to work <span>with you</span> ;)
       </div>
       <div className="cv-screen__container__description__download">
-        <a href="https://ecspetra.github.io/JB_portfolio/src/CV_Julia_Buts_Junior_Front-End-Developer.pdf">
+        <a
+          href="https://ecspetra.github.io/JB_portfolio/src/CV_Julia_Buts_Junior_Front-End-Developer.pdf"
+          download
+        >
           <svg
             id="prefix__f6f47cde-1745-42b3-bf19-bff146ebb438"
             data-name="\u0421\u043B\u043E\u0439 1"
