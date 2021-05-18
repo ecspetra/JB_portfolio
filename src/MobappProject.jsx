@@ -20,6 +20,16 @@ const MobappProject = () => {
           data-aos-offset="100"
         ></div>
       </div>
+      <div className="projects-screen__container-mobapp__images-mob">
+        <div
+          className="projects-screen__container-mobapp__images-mob__item"
+          id="mobapp-img-1-mob"
+        ></div>
+        <div
+          className="projects-screen__container-mobapp__images__item-mob"
+          id="mobapp-img-2-mob"
+        ></div>
+      </div>
       <div className="projects-screen__container-mobapp__description">
         <div className="projects-screen__container-mobapp__description__headline">
           <span>Mobapp</span> Project

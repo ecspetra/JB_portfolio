@@ -5,7 +5,7 @@ const CVDescription = () => {
     <div className="cv-screen__container__description">
       <div
         className="cv-screen__container__description__headline"
-        data-aos="fade-left"
+        data-aos="fade-up"
         data-aos-duration="2000"
         data-aos-offset="100"
       >

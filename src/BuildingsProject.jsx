@@ -20,6 +20,16 @@ const BuildingsProject = () => {
           data-aos-offset="100"
         ></div>
       </div>
+      <div className="projects-screen__container-buildings__images-mob">
+        <div
+          className="projects-screen__container-buildings__images-mob__item"
+          id="buildings-img-1-mob"
+        ></div>
+        <div
+          className="projects-screen__container-buildings__images-mob__item"
+          id="buildings-img-2-mob"
+        ></div>
+      </div>
       <div className="projects-screen__container-buildings__description">
         <div className="projects-screen__container-buildings__description__headline">
           <span>Buildings</span> Project

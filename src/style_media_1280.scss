@@ -157,6 +157,16 @@
             height: 240px;
           }
         }
+        .projects-screen__container-buildings__images-mob {
+          display: none;
+          .projects-screen__container-buildings__images-mob__item {
+          }
+
+          #buildings-img-1-mob {
+          }
+          #buildings-img-2-mob {
+          }
+        }
         .projects-screen__container-buildings__description {
           padding: 40px 40px 0px 40px;
           .projects-screen__container-buildings__description__headline {
@@ -200,6 +210,16 @@
             right: 90px;
             width: 420px;
             height: 240px;
+          }
+        }
+        .projects-screen__container-mobapp__images-mob {
+          display: none;
+          .projects-screen__container-mobapp__images-mob__item {
+          }
+
+          #mobapp-img-1-mob {
+          }
+          #mobapp-img-2-mob {
           }
         }
         .projects-screen__container-mobapp__description {

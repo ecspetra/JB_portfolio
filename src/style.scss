@@ -11,7 +11,7 @@ body {
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
   font-weight: 400;
-  overflow-x: hidden;
+  // overflow-x: hidden;
 }
 
 .cta-button {
@@ -348,6 +348,37 @@ body {
           box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
         }
       }
+      .projects-screen__container-buildings__images-mob {
+        position: relative;
+        display: none;
+        .projects-screen__container-buildings__images-mob__item {
+        }
+
+        #buildings-img-1-mob {
+          background: url("../src/img/buildings-img-1.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-color: $blend-color;
+          background-blend-mode: luminosity;
+        }
+        #buildings-img-2-mob {
+          background: url("../src/img/buildings-img-2.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          position: absolute;
+          top: 210px;
+          left: 90px;
+          width: 460px;
+          height: 280px;
+          background-color: $blend-color;
+          background-blend-mode: luminosity;
+          -webkit-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
+          -moz-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
+          box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
+        }
+      }
       .projects-screen__container-buildings__description {
         background: url("../src/img/rect.svg");
         background-repeat: no-repeat;
@@ -417,6 +448,37 @@ body {
           background-blend-mode: luminosity;
         }
         #mobapp-img-2 {
+          background: url("../src/img/mobapp-img-2.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          position: absolute;
+          top: 210px;
+          right: 90px;
+          width: 460px;
+          height: 280px;
+          background-color: $blend-color;
+          background-blend-mode: luminosity;
+          -webkit-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
+          -moz-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
+          box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
+        }
+      }
+      .projects-screen__container-mobapp__images-mob {
+        position: relative;
+        display: none;
+        .projects-screen__container-mobapp__images-mob__item {
+        }
+
+        #mobapp-img-1-mob {
+          background: url("../src/img/mobapp-img-1.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-color: $blend-color;
+          background-blend-mode: luminosity;
+        }
+        #mobapp-img-2-mob {
           background: url("../src/img/mobapp-img-2.jpg");
           background-repeat: no-repeat;
           background-position: center;

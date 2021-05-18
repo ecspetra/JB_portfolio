@@ -105,6 +105,22 @@
           #buildings-img-2 {
           }
         }
+        .projects-screen__container-buildings__images-mob {
+          display: flex;
+          .projects-screen__container-buildings__images-mob__item {
+            width: 280px;
+            height: 160px;
+          }
+
+          #buildings-img-1-mob {
+          }
+          #buildings-img-2-mob {
+            top: 110px;
+            left: 60px;
+            width: 240px;
+            height: 140px;
+          }
+        }
         .projects-screen__container-buildings__description {
           .projects-screen__container-buildings__description__headline {
             span {
@@ -134,6 +150,24 @@
           #mobapp-img-2 {
           }
         }
+        .projects-screen__container-mobapp__images-mob {
+          display: flex;
+          order: 1;
+          .projects-screen__container-mobapp__images-mob__item {
+            width: 280px;
+            height: 160px;
+          }
+
+          #mobapp-img-1-mob {
+          }
+          #mobapp-img-2-mob {
+            top: 110px;
+            right: 60px;
+            width: 240px;
+            height: 140px;
+          }
+        }
+
         .projects-screen__container-mobapp__description {
           .projects-screen__container-mobapp__description__headline {
             span {
