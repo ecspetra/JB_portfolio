@@ -1,0 +1,189 @@
+@media (max-width: 1280px) {
+  .cta-button {
+    font-size: 18px;
+    height: 52px;
+    padding: 0px 30px;
+  }
+  .cta-button svg {
+    width: 40px;
+    height: auto;
+  }
+
+  .wrapper .main-screen {
+    height: 768px;
+  }
+  .wrapper .main-screen .main-screen__header {
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    width: auto;
+  }
+  .wrapper .main-screen .main-screen__header .main-screen__header__container .main-screen__header__container__top-logo svg {
+    width: 48px;
+    height: auto;
+  }
+  .wrapper .main-screen .main-screen__header .main-screen__header__container .main-screen__header__container__links .main-screen__header__container__links__top-email a {
+    font-size: 14px;
+  }
+  .wrapper .main-screen .main-screen__header .main-screen__header__container .main-screen__header__container__links .main-screen__header__container__links__top-email a i {
+    font-size: 18px;
+  }
+  .wrapper .main-screen .main-screen__header .main-screen__header__container .main-screen__header__container__links .main-screen__header__container__links__top-phone a {
+    font-size: 16px;
+    line-height: 1;
+  }
+  .wrapper .main-screen .main-screen__header .main-screen__header__container .main-screen__header__container__links .main-screen__header__container__links__top-phone a i {
+    font-size: 18px;
+  }
+  .wrapper .main-screen .main-screen__contacts {
+    bottom: 40px;
+    left: 40px;
+    width: 20%;
+    gap: 20px;
+  }
+  .wrapper .main-screen .main-screen__contacts .main-screen__contacts__links {
+    max-width: 160px;
+    flex: 0 0 160px;
+  }
+  .wrapper .main-screen .main-screen__contacts .main-screen__contacts__links .main-screen__contacts__links__item {
+    width: 48px;
+    height: 48px;
+  }
+  .wrapper .main-screen .main-screen__contacts .main-screen__contacts__links .main-screen__contacts__links__item svg {
+    width: 48px;
+    height: auto;
+  }
+  .wrapper .main-screen .main-screen__contacts .main-screen__contacts__text .main-screen__contacts__text__item {
+    letter-spacing: 4px;
+    font-size: 14px;
+  }
+  .wrapper .main-screen .main-screen__container .main-screen__container__description {
+    max-width: 800px;
+    align-self: center;
+  }
+  .wrapper .main-screen .main-screen__container .main-screen__container__description .main-screen__container__description__headline {
+    font-size: 56px;
+  }
+  .wrapper .main-screen .main-screen__container .main-screen__container__description .main-screen__container__description__headline .main-screen__container__description__headline__text h1 {
+    font-size: 100px;
+  }
+  .wrapper .main-screen .main-screen__container .main-screen__container__description .main-screen__container__description__paragraph {
+    font-size: 14px;
+    max-width: 400px;
+    margin: 20px 0px 0px 0px;
+  }
+  .wrapper .main-screen .main-screen__container .main-screen__container__description .main-screen__container__description__paragraph .main-screen__container__description__cta-button {
+    margin: 45px 0px 0px 0px;
+  }
+  .wrapper .main-screen:before {
+    left: 25%;
+  }
+  .wrapper .main-screen:after {
+    width: 25%;
+    top: 32%;
+    right: 0;
+  }
+  .wrapper .projects-screen {
+    padding: 100px 0px;
+  }
+  .wrapper .projects-screen .projects-screen__container-buildings {
+    max-width: 1280px;
+    gap: 60px;
+  }
+  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images .projects-screen__container-buildings__images__item {
+    width: 480px;
+    height: 300px;
+  }
+  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images #buildings-img-2 {
+    top: 170px;
+    left: 90px;
+    width: 420px;
+    height: 240px;
+  }
+  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description {
+    padding: 40px 40px 0px 40px;
+  }
+  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__headline {
+    margin: 0px 0px 35px -10px;
+    font-size: 72px;
+    line-height: 72px;
+  }
+  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__paragraph {
+    font-size: 14px;
+    max-width: 40ch;
+  }
+  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__cta-button {
+    margin: 45px 0px 0px 0px;
+  }
+  .wrapper .projects-screen .projects-screen__container-mobapp {
+    margin: 100px auto 0px auto;
+    max-width: 1280px;
+    gap: 60px;
+  }
+  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images {
+    order: 2;
+  }
+  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images .projects-screen__container-mobapp__images__item {
+    width: 480px;
+    height: 300px;
+  }
+  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images #mobapp-img-2 {
+    top: 170px;
+    right: 90px;
+    width: 420px;
+    height: 240px;
+  }
+  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description {
+    padding: 40px 40px 0px 40px;
+    order: 1;
+  }
+  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__headline {
+    margin: 0px 0px 35px -10px;
+    font-size: 72px;
+    line-height: 72px;
+  }
+  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__paragraph {
+    font-size: 14px;
+    max-width: 40ch;
+  }
+  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__cta-button {
+    margin: 45px 0px 0px 0px;
+  }
+  .wrapper .cv-screen {
+    padding: 90px 40px 100px 40px;
+  }
+  .wrapper .cv-screen .cv-screen__container {
+    max-width: 1280px;
+  }
+  .wrapper .cv-screen .cv-screen__container .cv-screen__container__description .cv-screen__container__description__headline {
+    font-size: 56px;
+    line-height: 74px;
+  }
+  .wrapper .cv-screen .cv-screen__container .cv-screen__container__description .cv-screen__container__description__paragraph {
+    margin: 35px 0px 40px 0px;
+  }
+  .wrapper .cv-screen .cv-screen__container .cv-screen__container__description .cv-screen__container__description__download a svg {
+    width: 70px;
+    height: auto;
+  }
+  .wrapper .cv-screen .cv-screen__container:before {
+    width: 340px;
+    top: 115px;
+    left: 0;
+  }
+  .wrapper .footer {
+    max-width: 1280px;
+    margin: 150px auto 0px auto;
+    font-size: 14px;
+  }
+  .wrapper .footer .footer__to-top-btn {
+    letter-spacing: 4px;
+    font-size: 14px;
+  }
+  .wrapper .footer .footer__to-top-btn :before {
+    top: 140px;
+    left: 50%;
+  }
+}
+
+/*# sourceMappingURL=style_media_1280.css.map */

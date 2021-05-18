@@ -1,0 +1,34 @@
+@media (max-width: 1140px) {
+  .cta-button {
+    font-size: 18px;
+    height: 52px;
+    padding: 0px 30px;
+  }
+  .cta-button svg {
+    width: 40px;
+    height: auto;
+  }
+
+  .wrapper .main-screen .main-screen__container {
+    max-width: 1140px;
+  }
+  .wrapper .projects-screen .projects-screen__container-buildings {
+    max-width: 1140px;
+  }
+  .wrapper .projects-screen .projects-screen__container-mobapp {
+    max-width: 1140px;
+  }
+  .wrapper .cv-screen .cv-screen__container {
+    max-width: 1140px;
+  }
+  .wrapper .cv-screen .cv-screen__container:before {
+    background-size: cover;
+    width: 240px;
+    top: 120px;
+  }
+  .wrapper .footer {
+    max-width: 1140px;
+  }
+}
+
+/*# sourceMappingURL=style_media_1140.css.map */

@@ -1,0 +1,196 @@
+@import "tmp.scss";
+@media (max-width: 1140px) {
+  .cta-button {
+    font-size: 18px;
+    height: 52px;
+    padding: 0px 30px;
+
+    svg {
+      width: 40px;
+      height: auto;
+    }
+  }
+  .cta-button:hover {
+  }
+
+  .wrapper {
+    .main-screen {
+      .main-screen__header {
+        .main-screen__header__container {
+          .main-screen__header__container__top-logo {
+            svg {
+            }
+          }
+          .main-screen__header__container__links {
+            .main-screen__header__container__links__top-email {
+              a {
+                i {
+                }
+
+                &:hover {
+                }
+              }
+            }
+            .main-screen__header__container__links__top-phone {
+              a {
+                i {
+                }
+
+                &:hover {
+                }
+              }
+            }
+          }
+        }
+      }
+
+      svg * {
+      }
+      .main-screen__contacts {
+        .main-screen__contacts__links {
+          .main-screen__contacts__links__item {
+            svg {
+            }
+          }
+          .main-screen__contacts__links__item:hover > svg * {
+          }
+        }
+
+        .main-screen__contacts__text {
+          .main-screen__contacts__text__item {
+            span {
+            }
+          }
+        }
+      }
+
+      .main-screen__container {
+        max-width: 1140px;
+        .main-screen__container__description {
+          .main-screen__container__description__headline {
+            .main-screen__container__description__headline__text {
+              h1 {
+              }
+
+              #portfolio {
+              }
+            }
+            .glitch-window {
+            }
+          }
+          .main-screen__container__description__paragraph {
+            span {
+            }
+
+            .main-screen__container__description__cta-button {
+              svg {
+              }
+            }
+          }
+        }
+      }
+    }
+    .main-screen:before {
+    }
+    .main-screen:after {
+    }
+    .projects-screen {
+      .projects-screen__container-buildings {
+        max-width: 1140px;
+        .projects-screen__container-buildings__images {
+          .projects-screen__container-buildings__images__item {
+          }
+
+          #buildings-img-1 {
+          }
+          #buildings-img-2 {
+          }
+        }
+        .projects-screen__container-buildings__description {
+          .projects-screen__container-buildings__description__headline {
+            span {
+            }
+          }
+          .projects-screen__container-buildings__description__paragraph {
+            span {
+            }
+          }
+          .projects-screen__container-buildings__description__cta-button {
+            svg {
+            }
+          }
+        }
+      }
+
+      .projects-screen__container-mobapp {
+        max-width: 1140px;
+        .projects-screen__container-mobapp__images {
+          .projects-screen__container-mobapp__images__item {
+          }
+
+          #mobapp-img-1 {
+          }
+          #mobapp-img-2 {
+          }
+        }
+        .projects-screen__container-mobapp__description {
+          .projects-screen__container-mobapp__description__headline {
+            span {
+            }
+          }
+          .projects-screen__container-mobapp__description__paragraph {
+            span {
+            }
+          }
+          .projects-screen__container-mobapp__description__cta-button {
+            svg {
+            }
+          }
+        }
+      }
+    }
+    .cv-screen {
+      .cv-screen__container {
+        max-width: 1140px;
+        .cv-screen__container__description {
+          .cv-screen__container__description__headline {
+            #cv {
+            }
+
+            #download {
+            }
+          }
+          .cv-screen__container__description__paragraph {
+            span {
+            }
+          }
+          .cv-screen__container__description__download {
+            a {
+              svg {
+              }
+            }
+          }
+        }
+      }
+      .cv-screen__container:before {
+        background-size: cover;
+        width: 240px;
+        top: 120px;
+      }
+    }
+    .footer {
+      max-width: 1140px;
+      .footer__author {
+      }
+      .footer__to-top-btn {
+        a {
+          &:hover {
+          }
+        }
+
+        :before {
+        }
+      }
+    }
+  }
+}
