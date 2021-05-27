@@ -317,6 +317,7 @@ body {
       background-size: contain;
       .projects-screen__container-muscleroom__images {
         position: relative;
+        flex: 1 1 550px;
         .projects-screen__container-muscleroom__images__item {
           background-color: white;
           width: 520px;
@@ -385,6 +386,8 @@ body {
         background-position: top left;
         background-size: 15%;
         padding: 50px 50px 0px 50px;
+        flex: 1 1 640px;
+        box-sizing: border-box;
         .projects-screen__container-muscleroom__description__headline {
           margin: 0px 0px 40px -10px;
           font-size: $headline-fs;
@@ -432,6 +435,7 @@ body {
       background-size: contain;
       .projects-screen__container-buildings__images {
         position: relative;
+        flex: 1 1 550px;
         .projects-screen__container-buildings__images__item {
           background-color: white;
           width: 520px;
@@ -500,6 +504,8 @@ body {
         background-position: top left;
         background-size: 15%;
         padding: 50px 50px 0px 50px;
+        flex: 1 1 640px;
+        box-sizing: border-box;
         .projects-screen__container-buildings__description__headline {
           margin: 0px 0px 40px -10px;
           font-size: $headline-fs;
@@ -547,6 +553,7 @@ body {
       background-size: contain;
       .projects-screen__container-mobapp__images {
         position: relative;
+        flex: 1 1 550px;
         order: 2;
         .projects-screen__container-mobapp__images__item {
           background-color: white;
@@ -561,6 +568,7 @@ body {
           background-size: cover;
           background-color: $blend-color;
           background-blend-mode: luminosity;
+          margin-left: auto;
         }
         #mobapp-img-2 {
           background: url("../src/img/mobapp-img-2.jpg");
@@ -616,6 +624,8 @@ body {
         background-position: top left;
         background-size: 15%;
         padding: 50px 50px 0px 50px;
+        flex: 1 1 640px;
+        box-sizing: border-box;
         order: 1;
         .projects-screen__container-mobapp__description__headline {
           margin: 0px 0px 40px -10px;
