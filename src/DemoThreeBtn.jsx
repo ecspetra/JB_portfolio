@@ -4,7 +4,7 @@ const DemoThreeBtn = () => {
   return (
     <button
       className="projects-screen__container-buildings__description__cta-button cta-button"
-      onClick={(e) => window.open("https://ecspetra.github.io/example-1/")}
+      onClick={(e) => window.open("https://ecspetra.github.io/buildings/")}
     >
       Demo
       <svg
