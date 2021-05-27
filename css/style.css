@@ -15,7 +15,7 @@ body {
 .cta-button {
   cursor: pointer;
   background: none;
-  border: 2px solid #ea496a;
+  border: 2px solid #ff6a2f;
   border-radius: 32px;
   outline: none;
   display: block;
@@ -42,8 +42,8 @@ body {
 }
 
 .cta-button:hover {
-  background: #ea496a;
-  box-shadow: 10px 10px rgba(32, 241, 196, 0.1), -10px -10px rgba(234, 73, 106, 0.2);
+  background: #ff6a2f;
+  box-shadow: 10px 10px rgba(32, 241, 196, 0.1), -10px -10px rgba(255, 106, 47, 0.2);
 }
 
 .wrapper {
@@ -101,8 +101,8 @@ body {
   margin: 0px 10px 0px 0px;
 }
 .wrapper .main-screen .main-screen__header .main-screen__header__container .main-screen__header__container__links .main-screen__header__container__links__top-email a:hover {
-  color: #ea496a;
-  text-shadow: -20px 0 rgba(234, 73, 106, 0.1);
+  color: #ff6a2f;
+  text-shadow: -20px 0 rgba(255, 106, 47, 0.1);
 }
 .wrapper .main-screen .main-screen__header .main-screen__header__container .main-screen__header__container__links .main-screen__header__container__links__top-phone a {
   text-decoration: none;
@@ -124,8 +124,8 @@ body {
   margin: 0px 10px 0px 0px;
 }
 .wrapper .main-screen .main-screen__header .main-screen__header__container .main-screen__header__container__links .main-screen__header__container__links__top-phone a:hover {
-  color: #ea496a;
-  text-shadow: -20px 0 rgba(234, 73, 106, 0.1);
+  color: #ff6a2f;
+  text-shadow: -20px 0 rgba(255, 106, 47, 0.1);
 }
 .wrapper .main-screen svg * {
   -webkit-transition: all 0.2s ease-in-out;
@@ -186,7 +186,7 @@ body {
   font-size: 16px;
 }
 .wrapper .main-screen .main-screen__contacts .main-screen__contacts__text .main-screen__contacts__text__item span {
-  color: #ea496a;
+  color: #ff6a2f;
 }
 .wrapper .main-screen .main-screen__container {
   max-width: 1280px;
@@ -220,7 +220,7 @@ body {
   margin: 0;
 }
 .wrapper .main-screen .main-screen__container .main-screen__container__description .main-screen__container__description__headline .main-screen__container__description__headline__text #portfolio {
-  color: #ea496a;
+  color: #ff6a2f;
 }
 .wrapper .main-screen .main-screen__container .main-screen__container__description .main-screen__container__description__headline .glitch-window {
   position: absolute;
@@ -229,7 +229,7 @@ body {
   width: 100%;
   height: 100%;
   color: white;
-  text-shadow: 4px 0 #20f1c4, -10px 0 rgba(234, 73, 106, 0.2), -60px 0 rgba(234, 73, 106, 0.1);
+  text-shadow: 4px 0 #20f1c4, -10px 0 rgba(255, 106, 47, 0.2), -60px 0 rgba(255, 106, 47, 0.1);
   overflow: hidden;
   animation: crt-me 1000ms infinite linear alternate-reverse;
 }
@@ -300,7 +300,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #111b31;
+  background-color: #232836;
   background-blend-mode: luminosity;
 }
 .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__images #muscleroom-img-2 {
@@ -313,7 +313,7 @@ body {
   left: 90px;
   width: 460px;
   height: 280px;
-  background-color: #111b31;
+  background-color: #232836;
   background-blend-mode: luminosity;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
   -moz-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
@@ -328,7 +328,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #111b31;
+  background-color: #232836;
   background-blend-mode: luminosity;
 }
 .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__images-mob #muscleroom-img-2-mob {
@@ -341,7 +341,7 @@ body {
   left: 90px;
   width: 460px;
   height: 280px;
-  background-color: #111b31;
+  background-color: #232836;
   background-blend-mode: luminosity;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
   -moz-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
@@ -363,7 +363,7 @@ body {
   text-shadow: rgba(228, 213, 183, 0.3) 1px 0 30px;
 }
 .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__description .projects-screen__container-muscleroom__description__headline span {
-  color: #ea496a;
+  color: #ff6a2f;
   text-shadow: none;
 }
 .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__description .projects-screen__container-muscleroom__description__paragraph {
@@ -373,7 +373,7 @@ body {
   max-width: 40ch;
 }
 .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__description .projects-screen__container-muscleroom__description__paragraph span {
-  color: #ea496a;
+  color: #ff6a2f;
 }
 .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__description .projects-screen__container-muscleroom__description__cta-button {
   margin: 55px 0px 0px 0px;
@@ -406,7 +406,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #111b31;
+  background-color: #232836;
   background-blend-mode: luminosity;
 }
 .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images #buildings-img-2 {
@@ -419,7 +419,7 @@ body {
   left: 90px;
   width: 460px;
   height: 280px;
-  background-color: #111b31;
+  background-color: #232836;
   background-blend-mode: luminosity;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
   -moz-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
@@ -434,7 +434,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #111b31;
+  background-color: #232836;
   background-blend-mode: luminosity;
 }
 .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images-mob #buildings-img-2-mob {
@@ -447,7 +447,7 @@ body {
   left: 90px;
   width: 460px;
   height: 280px;
-  background-color: #111b31;
+  background-color: #232836;
   background-blend-mode: luminosity;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
   -moz-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
@@ -469,7 +469,7 @@ body {
   text-shadow: rgba(228, 213, 183, 0.3) 1px 0 30px;
 }
 .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__headline span {
-  color: #ea496a;
+  color: #ff6a2f;
   text-shadow: none;
 }
 .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__paragraph {
@@ -479,7 +479,7 @@ body {
   max-width: 40ch;
 }
 .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__paragraph span {
-  color: #ea496a;
+  color: #ff6a2f;
 }
 .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description .projects-screen__container-buildings__description__cta-button {
   margin: 55px 0px 0px 0px;
@@ -513,7 +513,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #111b31;
+  background-color: #232836;
   background-blend-mode: luminosity;
 }
 .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images #mobapp-img-2 {
@@ -526,7 +526,7 @@ body {
   right: 90px;
   width: 460px;
   height: 280px;
-  background-color: #111b31;
+  background-color: #232836;
   background-blend-mode: luminosity;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
   -moz-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
@@ -541,7 +541,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #111b31;
+  background-color: #232836;
   background-blend-mode: luminosity;
 }
 .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images-mob #mobapp-img-2-mob {
@@ -554,7 +554,7 @@ body {
   right: 90px;
   width: 460px;
   height: 280px;
-  background-color: #111b31;
+  background-color: #232836;
   background-blend-mode: luminosity;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
   -moz-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
@@ -577,7 +577,7 @@ body {
   text-shadow: rgba(228, 213, 183, 0.3) 1px 0 30px;
 }
 .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__headline span {
-  color: #ea496a;
+  color: #ff6a2f;
   text-shadow: none;
 }
 .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__paragraph {
@@ -587,7 +587,7 @@ body {
   max-width: 40ch;
 }
 .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__paragraph span {
-  color: #ea496a;
+  color: #ff6a2f;
 }
 .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description .projects-screen__container-mobapp__description__cta-button {
   margin: 55px 0px 0px 0px;
@@ -618,7 +618,7 @@ body {
   max-width: 700px;
 }
 .wrapper .cv-screen .cv-screen__container .cv-screen__container__description .cv-screen__container__description__headline #cv {
-  color: #ea496a;
+  color: #ff6a2f;
 }
 .wrapper .cv-screen .cv-screen__container .cv-screen__container__description .cv-screen__container__description__headline #download {
   color: #e4d5b7;
@@ -629,7 +629,7 @@ body {
   margin: 45px 0px 50px 0px;
 }
 .wrapper .cv-screen .cv-screen__container .cv-screen__container__description .cv-screen__container__description__paragraph span {
-  color: #ea496a;
+  color: #ff6a2f;
 }
 .wrapper .cv-screen .cv-screen__container .cv-screen__container__description .cv-screen__container__description__download a svg {
   width: 80px;
@@ -684,7 +684,7 @@ body {
   transition: all 0.2s ease-in-out;
 }
 .wrapper .footer .footer__to-top-btn a:hover {
-  color: #ea496a;
+  color: #ff6a2f;
 }
 .wrapper .footer .footer__to-top-btn :before {
   content: " ";
