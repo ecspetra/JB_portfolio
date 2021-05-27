@@ -1,5 +1,5 @@
 import React from "react";
-import DemoOneBtn from "./DemoOneBtn.jsx";
+import DemoThreeBtn from "./DemoThreeBtn.jsx";
 
 const BuildingsProject = () => {
   return (
@@ -39,7 +39,7 @@ const BuildingsProject = () => {
           . Includes some JQuery plugins, Slick Slider, Leaflet map and
           animations. Adapted for all devices and cross-browser.
         </div>
-        <DemoOneBtn />
+        <DemoThreeBtn />
       </div>
     </div>
   );

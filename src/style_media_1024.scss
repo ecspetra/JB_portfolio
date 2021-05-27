@@ -134,6 +134,64 @@
     .projects-screen {
       padding: 100px 0px;
 
+      .projects-screen__container-muscleroom {
+        max-width: 1024px;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 160px;
+        .projects-screen__container-muscleroom__images {
+          display: none;
+          .projects-screen__container-muscleroom__images__item {
+          }
+
+          #muscleroom-img-1 {
+          }
+          #muscleroom-img-2 {
+          }
+        }
+        .projects-screen__container-muscleroom__images-mob {
+          display: flex;
+          .projects-screen__container-muscleroom__images-mob__item {
+            width: 480px;
+            height: 300px;
+          }
+
+          #muscleroom-img-1-mob {
+          }
+          #muscleroom-img-2-mob {
+            top: 170px;
+            right: 90px;
+            width: 420px;
+            height: 240px;
+          }
+        }
+        .projects-screen__container-muscleroom__description {
+          padding: 40px 40px 0px 40px;
+          .projects-screen__container-muscleroom__description__headline {
+            margin: 0px 0px 35px 0px;
+            font-size: $headline-media-1280-fs;
+            line-height: $headline-media-1280-lh;
+            span {
+            }
+          }
+          .projects-screen__container-muscleroom__description__paragraph {
+            font-size: $paragraph-media-1280-fs;
+            max-width: 40ch;
+            margin: 0 auto;
+
+            span {
+            }
+          }
+          .projects-screen__container-muscleroom__description__cta-button {
+            margin: 45px auto 0px auto;
+
+            svg {
+            }
+          }
+        }
+      }
+
       .projects-screen__container-buildings {
         max-width: 1024px;
         flex-wrap: wrap;
@@ -193,7 +251,7 @@
       }
 
       .projects-screen__container-mobapp {
-        margin: 100px auto 0px auto;
+        margin: 100px auto;
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;

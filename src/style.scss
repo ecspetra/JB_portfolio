@@ -301,6 +301,121 @@ body {
     padding: 200px 0px;
     background-color: $basic-color;
 
+    .projects-screen__container-muscleroom {
+      padding: 0px 40px;
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      gap: 60px;
+      background: url("../src/img/muscleroom-bg.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      .projects-screen__container-muscleroom__images {
+        position: relative;
+        .projects-screen__container-muscleroom__images__item {
+          background-color: white;
+          width: 520px;
+          height: 360px;
+        }
+
+        #muscleroom-img-1 {
+          background: url("../src/img/muscleroom-img-1.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-color: $blend-color;
+          background-blend-mode: luminosity;
+        }
+        #muscleroom-img-2 {
+          background: url("../src/img/muscleroom-img-2.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          position: absolute;
+          top: 210px;
+          left: 90px;
+          width: 460px;
+          height: 280px;
+          background-color: $blend-color;
+          background-blend-mode: luminosity;
+          -webkit-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
+          -moz-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
+          box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
+        }
+      }
+      .projects-screen__container-muscleroom__images-mob {
+        position: relative;
+        display: none;
+        .projects-screen__container-muscleroom__images-mob__item {
+        }
+
+        #muscleroom-img-1-mob {
+          background: url("../src/img/muscleroom-img-1.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-color: $blend-color;
+          background-blend-mode: luminosity;
+        }
+        #muscleroom-img-2-mob {
+          background: url("../src/img/muscleroom-img-2.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          position: absolute;
+          top: 210px;
+          left: 90px;
+          width: 460px;
+          height: 280px;
+          background-color: $blend-color;
+          background-blend-mode: luminosity;
+          -webkit-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
+          -moz-box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
+          box-shadow: 0px 0px 20px 0px rgba(3, 6, 13, 0.2);
+        }
+      }
+      .projects-screen__container-muscleroom__description {
+        background: url("../src/img/rect.svg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: 15%;
+        padding: 50px 50px 0px 50px;
+        .projects-screen__container-muscleroom__description__headline {
+          margin: 0px 0px 40px -10px;
+          font-size: $headline-fs;
+          line-height: $headline-lh;
+          font-weight: 700;
+          color: $headline-color;
+          text-shadow: rgba($color: $headline-color, $alpha: 0.3) 1px 0 30px;
+          span {
+            color: $color-accent;
+            text-shadow: none;
+          }
+        }
+        .projects-screen__container-muscleroom__description__paragraph {
+          font-size: $paragraph-fs;
+          line-height: $paragraph-lh;
+          font-weight: 400;
+          max-width: 40ch;
+
+          span {
+            color: $color-accent;
+          }
+        }
+        .projects-screen__container-muscleroom__description__cta-button {
+          margin: 55px 0px 0px 0px;
+
+          svg {
+          }
+        }
+      }
+    }
+
     .projects-screen__container-buildings {
       padding: 0px 40px;
       max-width: 1280px;
@@ -419,7 +534,7 @@ body {
     .projects-screen__container-mobapp {
       padding: 0px 40px;
       max-width: 1280px;
-      margin: 200px auto 0px auto;
+      margin: 200px auto;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
