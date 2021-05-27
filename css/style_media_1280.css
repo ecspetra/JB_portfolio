@@ -86,6 +86,38 @@
   .wrapper .projects-screen {
     padding: 100px 0px;
   }
+  .wrapper .projects-screen .projects-screen__container-muscleroom {
+    max-width: 1280px;
+    gap: 60px;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__images .projects-screen__container-muscleroom__images__item {
+    width: 480px;
+    height: 300px;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__images #muscleroom-img-2 {
+    top: 170px;
+    left: 90px;
+    width: 420px;
+    height: 240px;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__images-mob {
+    display: none;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__description {
+    padding: 40px 40px 0px 40px;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__description .projects-screen__container-muscleroom__description__headline {
+    margin: 0px 0px 35px -10px;
+    font-size: 72px;
+    line-height: 72px;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__description .projects-screen__container-muscleroom__description__paragraph {
+    font-size: 14px;
+    max-width: 40ch;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__description .projects-screen__container-muscleroom__description__cta-button {
+    margin: 45px 0px 0px 0px;
+  }
   .wrapper .projects-screen .projects-screen__container-buildings {
     max-width: 1280px;
     gap: 60px;
@@ -99,6 +131,9 @@
     left: 90px;
     width: 420px;
     height: 240px;
+  }
+  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images-mob {
+    display: none;
   }
   .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__description {
     padding: 40px 40px 0px 40px;
@@ -116,7 +151,7 @@
     margin: 45px 0px 0px 0px;
   }
   .wrapper .projects-screen .projects-screen__container-mobapp {
-    margin: 100px auto 0px auto;
+    margin: 100px auto;
     max-width: 1280px;
     gap: 60px;
   }
@@ -132,6 +167,9 @@
     right: 90px;
     width: 420px;
     height: 240px;
+  }
+  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images-mob {
+    display: none;
   }
   .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__description {
     padding: 40px 40px 0px 40px;

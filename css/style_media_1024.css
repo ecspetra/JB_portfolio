@@ -77,6 +77,45 @@
   .wrapper .projects-screen {
     padding: 100px 0px;
   }
+  .wrapper .projects-screen .projects-screen__container-muscleroom {
+    max-width: 1024px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 160px;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__images {
+    display: none;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__images-mob {
+    display: flex;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__images-mob .projects-screen__container-muscleroom__images-mob__item {
+    width: 480px;
+    height: 300px;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__images-mob #muscleroom-img-2-mob {
+    top: 170px;
+    right: 90px;
+    width: 420px;
+    height: 240px;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__description {
+    padding: 40px 40px 0px 40px;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__description .projects-screen__container-muscleroom__description__headline {
+    margin: 0px 0px 35px 0px;
+    font-size: 72px;
+    line-height: 72px;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__description .projects-screen__container-muscleroom__description__paragraph {
+    font-size: 14px;
+    max-width: 40ch;
+    margin: 0 auto;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__description .projects-screen__container-muscleroom__description__cta-button {
+    margin: 45px auto 0px auto;
+  }
   .wrapper .projects-screen .projects-screen__container-buildings {
     max-width: 1024px;
     flex-wrap: wrap;
@@ -84,13 +123,19 @@
     text-align: center;
     gap: 160px;
   }
-  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images .projects-screen__container-buildings__images__item {
+  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images {
+    display: none;
+  }
+  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images-mob {
+    display: flex;
+  }
+  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images-mob .projects-screen__container-buildings__images-mob__item {
     width: 480px;
     height: 300px;
   }
-  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images #buildings-img-2 {
+  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images-mob #buildings-img-2-mob {
     top: 170px;
-    left: 90px;
+    right: 90px;
     width: 420px;
     height: 240px;
   }
@@ -111,7 +156,7 @@
     margin: 45px auto 0px auto;
   }
   .wrapper .projects-screen .projects-screen__container-mobapp {
-    margin: 100px auto 0px auto;
+    margin: 100px auto;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
@@ -119,13 +164,17 @@
     gap: 160px;
   }
   .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images {
+    display: none;
+  }
+  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images-mob {
+    display: flex;
     order: 1;
   }
-  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images .projects-screen__container-mobapp__images__item {
+  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images-mob .projects-screen__container-mobapp__images-mob__item {
     width: 480px;
     height: 300px;
   }
-  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images #mobapp-img-2 {
+  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images-mob #mobapp-img-2-mob {
     top: 170px;
     right: 90px;
     width: 420px;

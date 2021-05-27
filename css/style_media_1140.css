@@ -12,11 +12,23 @@
   .wrapper .main-screen .main-screen__container {
     max-width: 1140px;
   }
+  .wrapper .projects-screen .projects-screen__container-muscleroom {
+    max-width: 1140px;
+  }
+  .wrapper .projects-screen .projects-screen__container-muscleroom .projects-screen__container-muscleroom__images-mob {
+    display: none;
+  }
   .wrapper .projects-screen .projects-screen__container-buildings {
     max-width: 1140px;
   }
+  .wrapper .projects-screen .projects-screen__container-buildings .projects-screen__container-buildings__images-mob {
+    display: none;
+  }
   .wrapper .projects-screen .projects-screen__container-mobapp {
     max-width: 1140px;
+  }
+  .wrapper .projects-screen .projects-screen__container-mobapp .projects-screen__container-mobapp__images-mob {
+    display: none;
   }
   .wrapper .cv-screen .cv-screen__container {
     max-width: 1140px;
