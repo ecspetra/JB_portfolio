@@ -1,5 +1,5 @@
 import React from "react";
-import DemoOneBtn from "./DemoOneBtn.jsx";
+import DemoMuscleroomBtn from "./DemoMuscleroomBtn.jsx";
 
 const MuscleroomProject = () => {
   return (
@@ -45,7 +45,7 @@ const MuscleroomProject = () => {
           some JQuery plugins, Fancybox and Slick Slider. Adapted for all
           devices and cross-browser.
         </div>
-        <DemoOneBtn />
+        <DemoMuscleroomBtn />
       </div>
     </div>
   );

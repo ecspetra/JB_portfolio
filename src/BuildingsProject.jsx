@@ -1,5 +1,5 @@
 import React from "react";
-import DemoThreeBtn from "./DemoThreeBtn.jsx";
+import DemoBuildingsBtn from "./DemoBuildingsBtn.jsx";
 
 const BuildingsProject = () => {
   return (
@@ -32,14 +32,15 @@ const BuildingsProject = () => {
       </div>
       <div className="projects-screen__container-buildings__description">
         <div className="projects-screen__container-buildings__description__headline">
-          <span>Buildings</span> Project
+          <span>Buildings</span>
+          <br /> Project
         </div>
         <div className="projects-screen__container-buildings__description__paragraph">
           A project for a construction company, laid out on <span>FlexBox</span>
           . Includes some JQuery plugins, Slick Slider, Leaflet map and
           animations. Adapted for all devices and cross-browser.
         </div>
-        <DemoThreeBtn />
+        <DemoBuildingsBtn />
       </div>
     </div>
   );

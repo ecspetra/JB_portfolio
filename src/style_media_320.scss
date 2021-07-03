@@ -95,6 +95,51 @@
     .main-screen:after {
     }
     .projects-screen {
+      .projects-screen__container-trvl {
+        padding: 0px 20px;
+        .projects-screen__container-trvl__images {
+          .projects-screen__container-trvl__images__item {
+          }
+
+          #trvl-img-1 {
+          }
+          #trvl-img-2 {
+          }
+        }
+        .projects-screen__container-trvl__images-mob {
+          display: flex;
+          order: 1;
+          .projects-screen__container-trvl__images-mob__item {
+            width: 280px;
+            height: 160px;
+          }
+
+          #trvl-img-1-mob {
+          }
+          #trvl-img-2-mob {
+            top: 110px;
+            right: 60px;
+            width: 240px;
+            height: 130px;
+          }
+        }
+
+        .projects-screen__container-trvl__description {
+          .projects-screen__container-trvl__description__headline {
+            span {
+            }
+          }
+          .projects-screen__container-trvl__description__paragraph {
+            span {
+            }
+          }
+          .projects-screen__container-trvl__description__cta-button {
+            svg {
+            }
+          }
+        }
+      }
+
       .projects-screen__container-muscleroom {
         padding: 0px 20px;
         .projects-screen__container-muscleroom__images {
@@ -119,7 +164,7 @@
             top: 110px;
             left: 60px;
             width: 240px;
-            height: 140px;
+            height: 130px;
           }
         }
         .projects-screen__container-muscleroom__description {
@@ -164,7 +209,7 @@
             top: 110px;
             left: 60px;
             width: 240px;
-            height: 140px;
+            height: 130px;
           }
         }
         .projects-screen__container-buildings__description {
@@ -210,7 +255,7 @@
             top: 110px;
             right: 60px;
             width: 240px;
-            height: 140px;
+            height: 130px;
           }
         }
 

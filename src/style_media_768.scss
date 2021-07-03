@@ -139,8 +139,72 @@
     .projects-screen {
       padding: 55px 0px;
 
+      .projects-screen__container-trvl {
+        margin: 0px auto 55px auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        max-width: 768px;
+        gap: 100px;
+        padding: 0px 20px;
+        .projects-screen__container-trvl__images {
+          display: none;
+          .projects-screen__container-trvl__images__item {
+          }
+
+          #trvl-img-1 {
+          }
+          #trvl-img-2 {
+          }
+        }
+        .projects-screen__container-trvl__images-mob {
+          display: flex;
+          order: 1;
+          .projects-screen__container-trvl__images-mob__item {
+            width: 280px;
+            height: 160px;
+          }
+
+          #trvl-img-1-mob {
+          }
+          #trvl-img-2-mob {
+            top: 110px;
+            right: 60px;
+            width: 240px;
+            height: 130px;
+          }
+        }
+        .projects-screen__container-trvl__description {
+          background: none;
+          padding: 40px 20px 0px 20px;
+          order: 2;
+          .projects-screen__container-trvl__description__headline {
+            margin: 0px 0px 35px 0px;
+            font-size: $headline-media-768-fs;
+            line-height: $headline-media-768-lh;
+            span {
+            }
+          }
+          .projects-screen__container-trvl__description__paragraph {
+            font-size: $paragraph-media-1280-fs;
+            max-width: 40ch;
+            margin: 0 auto;
+
+            span {
+            }
+          }
+          .projects-screen__container-trvl__description__cta-button {
+            margin: 45px auto 0px auto;
+
+            svg {
+            }
+          }
+        }
+      }
+
       .projects-screen__container-muscleroom {
         flex-wrap: wrap;
+        margin: 55px auto;
         justify-content: center;
         text-align: center;
         max-width: 768px;
@@ -169,7 +233,7 @@
             top: 110px;
             left: 60px;
             width: 240px;
-            height: 140px;
+            height: 130px;
           }
         }
         .projects-screen__container-muscleroom__description {
@@ -201,6 +265,7 @@
 
       .projects-screen__container-buildings {
         flex-wrap: wrap;
+        margin: 55px auto 0px auto;
         justify-content: center;
         text-align: center;
         max-width: 768px;
@@ -229,7 +294,7 @@
             top: 110px;
             left: 60px;
             width: 240px;
-            height: 140px;
+            height: 130px;
           }
         }
         .projects-screen__container-buildings__description {
@@ -291,7 +356,7 @@
             top: 110px;
             right: 60px;
             width: 240px;
-            height: 140px;
+            height: 130px;
           }
         }
         .projects-screen__container-mobapp__description {

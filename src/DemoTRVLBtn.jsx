@@ -1,10 +1,10 @@
 import React from "react";
 
-const DemoOneBtn = () => {
+const DemoTRVLBtn = () => {
   return (
     <button
-      className="projects-screen__container-muscleroom__description__cta-button cta-button"
-      onClick={(e) => window.open("https://ecspetra.github.io/dodge/")}
+      className="projects-screen__container-trvl__description__cta-button cta-button"
+      onClick={(e) => window.open("https://ecspetra.github.io/travel/")}
     >
       Demo
       <svg
@@ -21,4 +21,4 @@ const DemoOneBtn = () => {
   );
 };
 
-export default DemoOneBtn;
+export default DemoTRVLBtn;

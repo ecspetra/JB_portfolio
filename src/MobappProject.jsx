@@ -1,5 +1,5 @@
 import React from "react";
-import DemoTwoBtn from "./DemoTwoBtn.jsx";
+import DemoMobappBtn from "./DemoMobappBtn.jsx";
 
 const MobappProject = () => {
   return (
@@ -32,14 +32,15 @@ const MobappProject = () => {
       </div>
       <div className="projects-screen__container-mobapp__description">
         <div className="projects-screen__container-mobapp__description__headline">
-          <span>Mobapp</span> Project
+          <span>Mobapp</span>
+          <br /> Project
         </div>
         <div className="projects-screen__container-mobapp__description__paragraph">
           A project for a business application, laid out on{" "}
           <span>Bootstrap</span>. Includes Slick Slider, Scalable Vector
           Graphics and animations. Adapted for all devices and cross-browser.
         </div>
-        <DemoTwoBtn />
+        <DemoMobappBtn />
       </div>
     </div>
   );

@@ -95,6 +95,43 @@
     .main-screen:after {
     }
     .projects-screen {
+      .projects-screen__container-trvl {
+        max-width: 1140px;
+        .projects-screen__container-trvl__images {
+          .projects-screen__container-trvl__images__item {
+          }
+
+          #trvl-img-1 {
+          }
+          #trvl-img-2 {
+          }
+        }
+        .projects-screen__container-trvl__images-mob {
+          display: none;
+          .projects-screen__container-trvl__images-mob__item {
+          }
+
+          #trvl-img-1-mob {
+          }
+          #trvl-img-2-mob {
+          }
+        }
+        .projects-screen__container-trvl__description {
+          .projects-screen__container-trvl__description__headline {
+            span {
+            }
+          }
+          .projects-screen__container-trvl__description__paragraph {
+            span {
+            }
+          }
+          .projects-screen__container-trvl__description__cta-button {
+            svg {
+            }
+          }
+        }
+      }
+
       .projects-screen__container-muscleroom {
         max-width: 1140px;
         .projects-screen__container-muscleroom__images {
